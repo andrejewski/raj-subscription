@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: npm
+  email: christopher.andrejewski@gmail.com
+  api_key:
+    secure: v2BAPXpkF/CGgLCx3CeUK6v6BlV8dMemOGTlEBRSbbXtXweHL98MTlV1/PW5pr8+MrdZitpTk/gQ9dE5NWFefbRErIPTIVSwKhrWEjNrvvR0bwDH9bUVQ/pHbe5BBAIifrYz70blfZzkftEv8lNKUf0FoYCCJo2jMp8pZZFfBQKf4gHCOkIouTVA17HGTrFqZS34uOHeVmX5mTgPi9H+O1JAYyKThknSth7pDm9yC/NVEEum6bGlQwXntpImM/vhvlVrDhnfLKoY5odpgezF1CYLobwMnBzAjS3WgeNcLzyMg9GKJwA+4w98+V3UJ6/i1FwEy6rrLqsGkhQ1jFMUBH0A7jJ0tz3NMQgsjRBnKAOB5pEGi5vjDM9FqTEBI3GvjJp4A3TzpoKwoLS/Vs7d/ZpLa+2UaxWneuQRaqGuzGpklntR5cO93mfc78rkS8E/AhM6lOb5XGEgxFGBYYb7XfIeV2KYTHnTspJy4/4x7ecyw8p1GS4v/O6YEHjJgdgq5P6tD7AtzByBTQ6NZLkrpEbk7M3AXJUDq/lcZspUBw+L43Ze+jHJ86rx5Yu+WRBApSlAH2TD1zwv7MQGCt+8ksXQkSL4n9pnzBSRxm9rPtO1u8XIu369DLsWqE/B5orXWVE6TcKln8VeolhD1/3Y8XHe7S2s9lCSlXpuZiQKQWY=
+  on:
+    tags: true
+    repo: andrejewski/raj-subscription
+  skip_cleanup: true
