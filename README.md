@@ -100,8 +100,8 @@ const subscriptions = model => ({
 ```
 
 When `model.isTicking` is true, the `tickSubscription` will be active.
-When the `tick` subscription appears in the map, we start the subscription.
-When the `tick` subscription leaves the map, we cancel the subscription.
+When the `tick` subscription appears in the object, we start the subscription.
+When the `tick` subscription leaves the object, we cancel the subscription.
 
 Notice the function closure around the `tickSubscription` call.
 We do not create new subscriptions every time `subscriptions` is called, because they may already be active.
